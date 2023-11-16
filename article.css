@@ -1,0 +1,22 @@
+article h2 {
+    color:red;
+}
+
+article p::first-letter {
+font-size: 24px;
+}
+
+article .first-list li:nth-child(2) {
+   font-weight: 600;
+}
+article .first-list li:nth-child(3){
+    font-weight: 600;
+}
+
+article .second-list li:first-child {
+    color:red;
+}
+
+article .second-list li:last-child {
+    color:red;
+}

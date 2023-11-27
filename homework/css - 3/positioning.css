@@ -1,0 +1,36 @@
+.colors {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    background-color: lightgray;
+    left: 10px;
+    position: relative;
+}
+
+.galben {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    left: 5px;
+    top: 5px;
+}
+
+.albastru {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.verde {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 0;
+    left: 200px;
+   
+}

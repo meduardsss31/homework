@@ -1,0 +1,17 @@
+.label {
+    color:skyblue;
+}
+.imput {
+    border-color: green;
+}
+.button {
+    color:green;
+}
+body {
+    background-color: salmon;
+}
+.email {
+    border-color:green;
+    background-color: blue;
+
+}

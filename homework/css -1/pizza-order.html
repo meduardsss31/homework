@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Order</title>
+    <link rel="stylesheet" href="pizza-order.css" />
+  </head>
+  <body>
+      <fieldset>
+      <legend>Pizza Order</legend>
+      <form action="">
+        <label class="label" for="yourName">Your Name: </label>
+        <input class="imput" type="text" id="yourName" name="yourName" minlength="3" maxlength="10" required/> 
+
+        <br />
+        <br />
+
+        <label class="email" for="email">Your email:</label>
+        <input class="imput" type="email" id="email" name="email" required/>
+
+        <br />
+        <br />
+
+        Topping:
+        <input type="radio" name="toping" value="supreme" id="supreme" checked/>
+        <label class="label" for="supreme">Supreme</label>
+        <input type="radio" name="toping" value="vegetarian" id="vegetarian" />
+        <label class="label" for="vegetarian">Vegetarian</label>
+        <input type="radio" name="toping" value="hawaiian" id="hawaiian" />
+        <label class="label" for="hawaiian">Hawaiian</label>
+
+        <br />
+        <br />
+
+        <label class="label" for="sauce">Sauce:</label>
+        <select id="sauce" name="sauce">
+          <option value="tomato">Tomato</option>
+          <option value="tabasco">Tabasco</option>
+          <option value="pineapple">Pineapple</option>
+        </select>
+
+        <br />
+        <br />
+        
+        Extras:
+        <input type="checkbox" name="extras" id="cheese" value="cheese" checked/>
+        <label class="label" for="cheese">Cheese</label>
+        <input type="checkbox" name="extras" id="onion" value="onion" />
+        <label class="label" for="onion">Onion</label>
+        <input type="checkbox" name="extras" id="olives" value="olives"/>
+        <label class="label" for="olives">Olives</label>
+
+        <br />
+        <br />
+
+        Quantity:
+        <form action="pizza-order.html">
+        <select required name="optiuni">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        </select>
+        <br>
+        <br>
+
+        <label class="label" for="data2">Select a date for order:</label>
+        <input type="date" name="data2" id="data2" min="2023-11-06" max="2023-11-07"/>
+
+        <br>
+        <br>
+
+
+
+        <label class="label" for="instructions"> Delivery instructions: </label>
+        <br />
+        <br>
+
+        <input class="imput" type="text" id="name" name="name" placeholder="Delivery instructions" required/>
+
+        <br>
+        <br>
+
+        <input class="button" type="reset" value="Reset" />
+        <input class="button" type="submit" value="Send order" /> 
+      </form>
+    </fieldset>
+  </body>
+</html>

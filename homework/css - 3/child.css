@@ -1,0 +1,51 @@
+.parent {
+    width: 800px;
+    height: 300px;
+    border-style: dotted;
+    border-radius: 25px;
+    border-color: rgb(119, 96, 66);
+    background-color: rgb(175, 182, 175);
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+.child1 {
+    width: 320px;
+    height: 220px;
+    border-style: dotted;
+    border-color: rgb(194, 119, 119);
+    border-radius: 25px;
+    background-color: rgb(27, 117, 117);
+    position: absolute;
+    left: 1px;
+  }
+  
+.child2 {
+    width: 320px; 
+    height: 230px;
+    border-style: dotted;
+    border-radius: 25px;
+    border-color: rgb(163, 48, 163);
+    background-color: rgb(195, 122, 195);
+    position: absolute;
+    left: 180px; 
+    z-index: 1; 
+    bottom: 0px;
+  }
+  
+.child3 { 
+    width: 250px; 
+    height: 200px;
+    border-style: dotted;
+    border-radius: 25px;
+    border-color:rgb(69, 33, 33);
+    background-color: rgb(187, 151, 108);
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+  }
+
+  h2 {
+    text-align: center;
+  }

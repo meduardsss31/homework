@@ -4,35 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizza Order</title>
+    <link rel="stylesheet" href="pizza-order.css" />
   </head>
   <body>
-    <fieldset>
+      <fieldset>
       <legend>Pizza Order</legend>
       <form action="">
-        <label for="yourName">Your Name: </label>
-        <input type="text" id="yourName" name="yourName" minlength="3" maxlength="10" required/>
+        <label class="label" for="yourName">Your Name: </label>
+        <input class="imput" type="text" id="yourName" name="yourName" minlength="3" maxlength="10" required/> 
 
         <br />
         <br />
 
-        <label for="email">Your email:</label>
-        <input type="email" id="email" name="email" required/>
+        <label class="email" for="email">Your email:</label>
+        <input class="imput" type="email" id="email" name="email" required/>
 
         <br />
         <br />
 
         Topping:
         <input type="radio" name="toping" value="supreme" id="supreme" checked/>
-        <label for="supreme">Supreme</label>
+        <label class="label" for="supreme">Supreme</label>
         <input type="radio" name="toping" value="vegetarian" id="vegetarian" />
-        <label for="vegetarian">Vegetarian</label>
+        <label class="label" for="vegetarian">Vegetarian</label>
         <input type="radio" name="toping" value="hawaiian" id="hawaiian" />
-        <label for="hawaiian">Hawaiian</label>
+        <label class="label" for="hawaiian">Hawaiian</label>
 
         <br />
         <br />
 
-        <label for="sauce">Sauce:</label>
+        <label class="label" for="sauce">Sauce:</label>
         <select id="sauce" name="sauce">
           <option value="tomato">Tomato</option>
           <option value="tabasco">Tabasco</option>
@@ -44,11 +45,11 @@
         
         Extras:
         <input type="checkbox" name="extras" id="cheese" value="cheese" checked/>
-        <label for="cheese">Cheese</label>
+        <label class="label" for="cheese">Cheese</label>
         <input type="checkbox" name="extras" id="onion" value="onion" />
-        <label for="onion">Onion</label>
+        <label class="label" for="onion">Onion</label>
         <input type="checkbox" name="extras" id="olives" value="olives"/>
-        <label for="olives">Olives</label>
+        <label class="label" for="olives">Olives</label>
 
         <br />
         <br />
@@ -67,7 +68,7 @@
         <br>
         <br>
 
-        <label for="data2">Select a date for order:</label>
+        <label class="label" for="data2">Select a date for order:</label>
         <input type="date" name="data2" id="data2" min="2023-11-06" max="2023-11-07"/>
 
         <br>
@@ -75,17 +76,17 @@
 
 
 
-        <label for="instructions"> Delivery instructions: </label>
+        <label class="label" for="instructions"> Delivery instructions: </label>
         <br />
         <br>
 
-        <input type="text" id="name" name="name" placeholder="Delivery instructions" required/>
+        <input class="imput" type="text" id="name" name="name" placeholder="Delivery instructions" required/>
 
         <br>
         <br>
 
-        <input type="reset" value="Reset" />
-        <input type="submit" value="Send order" />
+        <input class="button" type="reset" value="Reset" />
+        <input class="button" type="submit" value="Send order" /> 
       </form>
     </fieldset>
   </body>

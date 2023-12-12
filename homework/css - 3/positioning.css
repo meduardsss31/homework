@@ -1,0 +1,41 @@
+.colors {
+    width: 700px;
+    height: 700px;
+    border: 1px solid black;
+    background-color: lightgray;
+    left: 10px;
+    /* position: relative; */
+}
+
+.yellow {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    /* top: 200px;
+    left: 200px; */
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.blue {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    /* position: absolute; */
+    /* bottom: 100px;
+    left: 300px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.green {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* left: 400px;
+    bottom: -200px; */
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
